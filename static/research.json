@@ -1,0 +1,12 @@
+[
+    {
+        "name": "스스로 수정하는 인공지능",
+        "explanation": "책에 소개된 그림 '그리는 손'에서 영감을 받아 스스로 수정하는 인공지능에 대한 아이디어를 떠올리고 관심을 갖게 되었습니다. 이에 현재 존재하는 스스로 수정하는 인공지능을 찾아보고 구현을 시도하였습니다.",
+        "image": "static/images/ai.png"
+    },
+    {
+        "name": "DGM(darwin-gödel machine)",
+        "explanation": "DGM 설명",
+        "image": "static/images/DGM.png"
+    }
+]

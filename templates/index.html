@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>Jueun Lee | Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <!-- Nav -->
+  <nav>
+    <div class="logo"><strong>Jueun&nbsp;Lee</strong></div>
+    <ul>
+      <li><a href="{{ url_for('development') }}">개발</a></li>
+      <li><a href="{{ url_for('development') }}">연구</a></li>
+      <li><a href="{{ url_for('development') }}">탐구·과제</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1 style="font-size:2.75rem;line-height:1.2">Future CS Major &amp; Creative Maker</h1>
+    <p style="max-width:32rem;color:#e0e7ff">
+      탁월한 문제 해결, 소프트웨어로 세상을 바꾸는 학생입니다.
+    </p>
+  </header>
+
+  <!-- Category Tiles -->
+  <section class="tiles" style="padding:3rem 2rem;">
+    <a href="{{ url_for('development') }}" class="tile">
+      <div class="tile-icon">💻</div>
+      <h3>개발</h3>
+      <p class="tile-desc">기분신호등, 개그 사이트, 자동 작곡 등 5개 프로젝트</p>
+    </a>
+    <a href="{{ url_for('research') }}" class="tile">
+      <div class="tile-icon">🔬</div>
+      <h3>연구</h3>
+      <p>Auto-GPT 기반 자기 수정 AI 연구 1건</p>
+    </a>
+    <a href="{{ url_for('explore') }}" class="tile">
+      <div class="tile-icon">📊</div>
+      <h3>탐구·과제</h3>
+      <p>페르마 포인트·지수함수 등 5개 탐구 과제</p>
+    </a>
+  </section>
+
+  <!-- About (간략) -->
+  <section id="about" style="padding:4rem 2rem;text-align:center;">
+    <h2 style="font-size:2rem">소개</h2>
+    <p style="max-width:40rem;margin:1rem auto;color:var(--text-sub)">
+      안녕하세요! 컴퓨터 과학 전공을 목표로 공부 중인 <strong>이주은</strong>입니다.
+      웹 개발, 머신러닝, 알고리즘 문제 해결에 열정을 가지고 있습니다.
+    </p>
+  </section>
+</body>
+</html>
