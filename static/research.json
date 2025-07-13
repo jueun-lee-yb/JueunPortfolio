@@ -6,7 +6,7 @@
     },
     {
         "name": "DGM(darwin-gödel machine)",
-        "explanation": "DGM 설명",
+        "explanation": "전에 연구한 스스로 수정하는 인공지능의 연구를 발전시켜 최근에 나온 인공지능 모델 DGM와 기존의 스스로 수정하는 인공지능 모델을 확인하고, 스스로의 목표, 즉 프롬프트를 수정하는 행위의 윤리적 문제와 책임 소재 등을 고찰했습니다.",
         "image": "static/images/DGM.png"
     }
 ]
